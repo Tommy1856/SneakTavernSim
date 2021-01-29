@@ -24,7 +24,7 @@ void ABaseAICPP::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
+/*
 // Called to bind functionality to input
 void ABaseAICPP::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -86,4 +86,4 @@ bool ABaseAICPP::SetSightRange(AAIController* Controller, float SightRange)
 	}
 
 	return true;
-}
+}*/

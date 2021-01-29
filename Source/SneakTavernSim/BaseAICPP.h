@@ -23,15 +23,13 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	/*
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	static UAISenseConfig* GetPerceptionSenseConfig(AAIController *Controller, TSubclassOf<UAISense> SenseClass);
 
-	UFUNCTION(BlueprintCallable)
-		static bool SetSightRange(AAIController* Controller, float SightRange);
-
+	*/
 };
 
 
